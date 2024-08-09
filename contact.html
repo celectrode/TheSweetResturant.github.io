@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Authour" content="Abioye Israel Pelumi">
+    <meta name="Description" content="A food resturant website">
+    <title>CONTACT Page</title>
+    <link rel="icon" href="Images/contactus.png" type="image/x-icon">
+    <link rel="stylesheet" href="project1.css" type="text/css">
+</head>
+<body>
+    <header>
+    <h1 id="Top">Contact Us</h1>
+    <nav>
+    <ul>
+        <li><a href="website.html">Home</a></li>
+        <li><a href="website.html#About">About TSR</a></li>
+        <li><a href="website.html#Menu">Our menu</a></li>
+        <li><a href="storehours.html#Time">Store Hours</a></li>
+    </ul>
+</nav>
+  
+        <figure>
+            <img src="Images/contactus.png" alt="contact" width="237" height="322" loading="lazy" title="Contact Us">
+            
+        </figure>
+    </header>
+   <main>
+    <h2>Our Contact form</h2>
+
+    <fieldset>
+        <legend><h3>Send Us a Message</h3></legend>
+        <form action="https://httpbin.org/get" method="get">
+            <p>
+                <label for="Name">Name</label>
+                <input type="text" name="Firstname" id="Name" placeholder="your name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="your email" autocomplete="on" required>
+            </p>
+           
+            <p>
+                <label for="message">Send Us a Message</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+           
+            </p>
+            <button type="submit">
+                Submit
+              </button>
+              
+              <button type="reset">
+                Reset
+              </button>
+        </form>
+        <h2>Our Location</h2>
+        <p><address>Mokola, Ibadan, Nigeria
+            <br>
+           <p>Phone: 555-555-5555</p>
+        </address>
+    </fieldset>
+    <p>
+        <a href="#Top">Back to Top</a>
+    </p> 
+</main> 
+ <footer>    
+    <p>
+        Copyright &copy; The Sweet Resturant
+    </p>
+    <hr>
+</footer>
+</body>
+
+</html>
